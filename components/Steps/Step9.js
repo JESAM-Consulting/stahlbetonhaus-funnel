@@ -287,7 +287,7 @@ export default function Step9() {
         <div className="flex space-x-4">
           <button
             type="submit"
-            className="mt-4 bg-green-1 items-center justify-center flex outline-none relative lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-[#F1C88B] transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] md:text-sm md:w-auto text-sm w-full">
+            className="mt-4 bg-green-1 items-center justify-center flex outline-none relative lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-[#fff] transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] md:text-sm md:w-auto text-sm w-full">
             <div className="absolute w-full flex justify-center items-center bg-slate-300 z-30">
               <svg
                 className={`animate-spin h-5 w-5 text-white absolute${

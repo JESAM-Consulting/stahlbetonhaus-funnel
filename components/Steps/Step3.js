@@ -71,7 +71,7 @@ export default function Step3() {
                   className="fill-green-1 group-hover:fill-white transition-all ease-in-out duration-150"
                 />
               </g>
-              <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
+              <rect x="0.5" y="0.5" width="152" height="108" stroke="#71B0DE" />
               <defs>
                 <clipPath id="clip0_201_195">
                   <rect
@@ -120,7 +120,7 @@ export default function Step3() {
                 y="0.5"
                 width="152"
                 height="108"
-                stroke="#F6E7C7"
+                stroke="#71B0DE"
               />
               <defs>
                 <clipPath id="clip0_201_198">
@@ -143,12 +143,12 @@ export default function Step3() {
               <g clip-path="url(#clip0_201_198)">
                 <path
                   d="M94.4319 46.2901V29.3994H83.7464V41.6306L52.25 27.9209V81.0795H102.25V49.7175L94.4319 46.2901ZM85.9866 31.6395H92.1918V45.3044L85.9866 42.6162V31.6395ZM81.7079 78.8394V62.8447H92.1918V78.8394H81.7079ZM100.01 78.8394H94.4319V60.6046H79.4677V78.8394H54.4901V31.3483L100.01 51.1736V78.8394Z"
-                  fill="#F6E7C7"
+                  fill="#71B0DE"
                   className="fill-green-1 group-hover:fill-white transition-all ease-in-out duration-150"
                 />
                 <path
                   d="M75.3011 52.9209H58.164V71.9621H75.3011V52.9209ZM73.0609 69.722H60.4041V55.161H73.0609V69.722Z"
-                  fill="#F6E7C7"
+                  fill="#71B0DE"
                   className="fill-green-1 group-hover:fill-white transition-all ease-in-out duration-150"
                 />
               </g>
@@ -157,7 +157,7 @@ export default function Step3() {
                 y="0.5"
                 width="152"
                 height="108"
-                stroke="#F6E7C7"
+                stroke="#71B0DE"
               />
               <defs>
                 <clipPath id="clip0_201_198">
@@ -202,7 +202,7 @@ export default function Step3() {
                   className="fill-green-1 group-hover:fill-white transition-all ease-in-out duration-150"
                 />
               </g>
-              <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
+              <rect x="0.5" y="0.5" width="152" height="108" stroke="#71B0DE" />
               <defs>
                 <clipPath id="clip0_201_192">
                   <rect
@@ -242,7 +242,7 @@ export default function Step3() {
                   className="fill-green-1 group-hover:fill-white transition-all ease-in-out duration-150"
                 />
               </g>
-              <rect x="0.5" y="0.5" width="152" height="108" stroke="#F6E7C7" />
+              <rect x="0.5" y="0.5" width="152" height="108" stroke="#71B0DE" />
               <defs>
                 <clipPath id="clip0_201_204">
                   <rect
