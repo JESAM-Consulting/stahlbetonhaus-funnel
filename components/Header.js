@@ -4,12 +4,11 @@ import Head from "next/head";
 export default function Header() {
   return (
     <Head>
-      <title>ZuhauseSelig</title>
+      <title>Stahlbetonhaus</title>
       <meta
         name="description"
         content="Photovoltaik Angebot - individuelle Solar-Beratung."
       />
-
       <link rel="icon" href="/favicon.png" />
     </Head>
   );
