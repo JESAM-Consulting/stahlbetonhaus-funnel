@@ -133,7 +133,7 @@ export default function Step9() {
       art_heizung: userData.step5,
       leadherkunft: "http://stahlbetonhaus.solar-pvcheck.de",
       Bemerkungen: calculatedDa,
-      
+
     };
 
     console.log(sendData);
@@ -152,23 +152,23 @@ export default function Step9() {
       })
 
 
-      const Data = {
-        Eigentuemer: userData.step1 === "Nein" ? false : true,
-        name: data.name,
-        plz: parseInt(userData.step6),
-        telefon: data.telefon,
-        email: data.email,
-        stromverbrauch: parseInt(userData.step2.consumo),
-        interesse_finanzierung: userData.step4,
-        dachform: userData.step3,
-        art_heizung: userData.step5,
-        leadherkunft: "http://stahlbetonhaus.solar-pvcheck.de",
-        Bemerkungen: calculatedDa,
-        project:"stahlbetonhaus"
-      };
+    const Data = {
+      Eigentuemer: userData.step1 === "Nein" ? false : true,
+      name: data.name,
+      plz: parseInt(userData.step6),
+      telefon: data.telefon,
+      email: data.email,
+      stromverbrauch: parseInt(userData.step2.consumo),
+      interesse_finanzierung: userData.step4,
+      dachform: userData.step3,
+      art_heizung: userData.step5,
+      leadherkunft: "http://stahlbetonhaus.solar-pvcheck.de",
+      Bemerkungen: calculatedDa,
+      project: "stahlbetonhaus"
+    };
 
 
-      await axios
+    await axios
       .post(
         `https://fe-lead-commen-api.rejoicehub.com/FE_API/lead_api/v1/contact`,
         Data,
@@ -240,7 +240,7 @@ export default function Step9() {
           </div>
           <div className="flex flex-col  relative space-y-2 lg:w-1/2">
             <label htmlFor="telefon" className="text-left font-bold font-visby">
-            Telefonnummer*
+              Telefonnummer*
             </label>
             <input
               id="telefon"
@@ -256,7 +256,7 @@ export default function Step9() {
 
         <div className="flex flex-col  relative mt-4 space-y-2">
           <label htmlFor="email" className="text-left font-bold font-visby ">
-          E-Mail Adresse*
+            E-Mail Adresse*
           </label>
           <input
             type="email"
@@ -290,9 +290,8 @@ export default function Step9() {
             className="mt-4 bg-green-1 items-center justify-center flex outline-none relative lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-[#fff] transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#706f69] md:text-sm md:w-auto text-sm w-full">
             <div className="absolute w-full flex justify-center items-center bg-slate-300 z-30">
               <svg
-                className={`animate-spin h-5 w-5 text-white absolute${
-                  send ? " block " : " hidden "
-                }`}
+                className={`animate-spin h-5 w-5 text-white absolute${send ? " block " : " hidden "
+                  }`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24">
